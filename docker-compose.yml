@@ -1,0 +1,14 @@
+version: "3.5"
+services:
+  server:
+    image: golang:1.14.1
+    tty: true
+    volumes:
+      - .:/go/src/redis-proxy
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:5.0.7

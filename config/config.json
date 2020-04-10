@@ -1,0 +1,9 @@
+{
+    "redis_config": {
+        "address": "redis:6379",
+        "db": 0
+    },
+    "expiry": 30,
+    "capacity": 3,
+    "port": 8080
+}
