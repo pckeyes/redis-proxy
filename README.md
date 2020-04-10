@@ -1,4 +1,4 @@
-# redix-proxy
+# redis-proxy
 A simple proxy for getting cached values backed by Redis
 
 Architectural overview:
@@ -44,8 +44,9 @@ Algorithmic complexity of Cache operations:
      - Upon each loop, if an expired key is found, the complexity will be O(number expired keyes)
 
 Running the proxy and test:
-   - Pull this repo
-   - Within redis-proxy, run make test
+   - `$ git pull `
+   - `$ cd redis-proxy`
+   - `$ make test`
    - Client test output will be printed
    - Extra integration tests will only print if they fail
    
