@@ -44,7 +44,7 @@ Algorithmic complexity of Cache operations:
      - Upon each loop, if an expired key is found, the complexity will be O(number expired keyes)
 
 Running the proxy and test:
-   - `$ git pull `
+   - `$ git pull https://github.com/pckeyes/redis-proxy.git`
    - `$ cd redis-proxy`
    - `$ make test`
    - Client test output will be printed
